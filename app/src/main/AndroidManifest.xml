@@ -18,6 +18,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+            <!-- App Shortcutsの設定 -->
+            <meta-data android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+
         </activity>
 
         <activity android:name=".LiveActivity"

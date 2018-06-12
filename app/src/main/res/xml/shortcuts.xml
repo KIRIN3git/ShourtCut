@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut1"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_1"
+        android:shortcutShortLabel="@string/shortcut_short_label1"
+        android:shortcutLongLabel="@string/shortcut_long_label1"
+        android:shortcutDisabledMessage="@string/shortcut_disable_label1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shinji_win.shourtcut"
+            android:targetClass="com.example.shinji_win.shourtcut.LiveActivity">
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut2"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_2"
+        android:shortcutShortLabel="@string/shortcut_short_label2"
+        android:shortcutLongLabel="@string/shortcut_long_label2"
+        android:shortcutDisabledMessage="@string/shortcut_disable_label2">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shinji_win.shourtcut"
+            android:targetClass="com.example.shinji_win.shourtcut.TimetableActivity">
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
